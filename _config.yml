@@ -269,7 +269,9 @@ sidebar:
   nav: "docs"
   
 comments:
-  provider: "disqus"
+  provider               : "rhdrlvnd"
+  disqus:
+    shortname            : Dawoon's blog # Short-name
     
 # Defaults
 defaults:
