@@ -287,6 +287,21 @@ defaults:
       share: true
       related: true
       
+    # _posts/blogging
+  - scope:
+      path: "_posts/blogging"
+      type: posts
+    values:
+      layout: single
+      classes: wide
+      author_profile: true
+      comments: true
+      share: true
+      search: true
+      related: true
+      sidebar:
+        nav: sidebar-blogging
+      
   # _docs
   - scope:
       path: ""
