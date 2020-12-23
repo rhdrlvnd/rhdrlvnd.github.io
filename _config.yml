@@ -94,7 +94,7 @@ analytics:
 # Site Author
 author:
   name             : "DAWOON LEE"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/profile.jpg"
   bio              : "Developer"
   location         : "Suwon, Korea"
   email            : "rhdrlvnd@gmail.com"
