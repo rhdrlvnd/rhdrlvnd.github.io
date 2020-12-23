@@ -38,11 +38,11 @@ plt.show()
 
 fr.face_locations : 사진에 등장하는 모든 얼굴을 search
 
-![image-20201223201612727](C:\Users\Dawoon\AppData\Roaming\Typora\typora-user-images\image-20201223201612727.png)
+![](https://user-images.githubusercontent.com/40141212/102996144-e3281380-4565-11eb-9e25-c3c000a1f151.png)
 
 코드 결과 image!
 
-![image-20201223200937216](C:\Users\Dawoon\AppData\Roaming\Typora\typora-user-images\image-20201223200937216.png)
+![image-20201223200937216](https://user-images.githubusercontent.com/40141212/102996340-4f0a7c00-4566-11eb-9ed6-ba556b8ddb90.png)
 
 
 
@@ -72,7 +72,8 @@ for face in known_face_list:
   plt.show()
 ```
 
-![image-20201223204935450](C:\Users\Dawoon\AppData\Roaming\Typora\typora-user-images\image-20201223204935450.png)
+![image-20201223204935450](https://user-images.githubusercontent.com/40141212/102996389-68132d00-4566-11eb-8377-6e8019532f4b.png)
+
 
 ```python
 unknown_person = fr.load_image_file('/gdrive/My Drive/Colab/me.jpg')
@@ -85,7 +86,8 @@ plt.imshow(unknown_face)
 plt.show()
 ```
 
-![image-20201223205010308](C:\Users\Dawoon\AppData\Roaming\Typora\typora-user-images\image-20201223205010308.png)
+![image-20201223205010308](https://user-images.githubusercontent.com/40141212/102996430-795c3980-4566-11eb-929e-cecee67cdf25.png)
+
 
 ```python
 enc_unknown_face = fr.face_encodings(unknown_face)
@@ -105,7 +107,8 @@ for face in known_face_list:
 
 fr.face_encoding : 68개의 좌표를 128개의 숫자로 변환한다. 128개의 숫자는 deep learning의 결과물이기에 각 숫자의 의미는 알수 없다.
 
-![image-20201223211009664](C:\Users\Dawoon\AppData\Roaming\Typora\typora-user-images\image-20201223211009664.png)
+![image-20201223211009664](https://user-images.githubusercontent.com/40141212/102996477-8aa54600-4566-11eb-90ff-6c7b276a517e.png)
+
 
 ### 느낀점
 
