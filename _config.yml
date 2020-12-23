@@ -97,7 +97,7 @@ author:
   avatar           : "/assets/profile.jpg"
   bio              : "Developer"
   location         : "Suwon, Korea"
-  email            : "rhdrlvnd@gmail.com"
+  email            : 
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
