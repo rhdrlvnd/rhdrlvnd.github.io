@@ -269,7 +269,7 @@ sidebar:
   nav: "docs"
   
 comments:
-  provider               :
+  provider: "disqus"
     
 # Defaults
 defaults:
