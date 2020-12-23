@@ -269,9 +269,7 @@ sidebar:
   nav: "docs"
   
 comments:
-  provider               : "disqus"
-  disqus:
-    shortname            : dev-hundred-blog # Short-name
+  provider               :
     
 # Defaults
 defaults:
