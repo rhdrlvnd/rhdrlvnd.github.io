@@ -275,19 +275,8 @@ comments:
     
 # Defaults
 defaults:
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: true # 댓글 활성화
-      share: true
-      related: true
-      
-    # _posts/blogging
+
+  # _posts/blogging
   - scope:
       path: "_posts/blogging"
       type: posts
@@ -301,11 +290,42 @@ defaults:
       related: true
       sidebar:
         nav: sidebar-blogging
-      
-  # _docs
+        
+  # _posts/Wargame
+  - scope:
+      path: "_posts/Wargame"
+      type: posts
+    values:
+      layout: single
+      classes: wide
+      author_profile: true
+      comments: true
+      share: true
+      search: true
+      related: true
+      sidebar:
+        title: "Wargame 카테고리"
+        nav: sidebar-wargame
+
+
+  # _posts
   - scope:
       path: ""
-      type: docs
+      type: posts
     values:
-      sidebar:
-        nav: "docs"
+      layout: single
+      classes: wide
+      author_profile: true
+      comments: true
+      share: true
+      search: true
+      related: true
+
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      classes: wide
+      author_profile: true
