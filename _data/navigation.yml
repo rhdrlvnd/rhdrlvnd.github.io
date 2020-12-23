@@ -1,6 +1,6 @@
 # main links
 main:
-  - title: "About1"
+  - title: "About"
     url: "/about/"
   - title: "Category"
     url: "/categories/"
