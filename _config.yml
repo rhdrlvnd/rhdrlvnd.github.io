@@ -271,7 +271,7 @@ sidebar:
 comments:
   provider               : "disqus"
   disqus:
-    shortname            : Dawoon's blog # Short-name
+    shortname            : dawoon-blog # Short-name
     
 # Defaults
 defaults:
