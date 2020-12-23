@@ -268,6 +268,11 @@ compress_html:
 sidebar:
   nav: "docs"
   
+comments:
+  provider               : "disqus"
+  disqus:
+    shortname            : dev-hundred-blog # Short-name
+    
 # Defaults
 defaults:
   # _posts
@@ -278,7 +283,7 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments: true # 댓글 활성화
       share: true
       related: true
       
