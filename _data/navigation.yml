@@ -1,40 +1,11 @@
-# main links
-main:
-  - title: "About3"
-    url: "/about/"
-  - title: "Category"
-    url: "/categories/"
-
-
-
-# 블로그 만들기 포스트 사이드바
-sidebar-blogging:
-  - title: "블로그를 만들자!"
+docs:
+  - title: Algorithm
     children:
-    - title: "github.io 블로그 구축하기"
-      url: 
-    - title: "Travis-ci를 이용해 배포 자동화 시키기"
-      url: 
-    - title: "Algolia를 적용시키기"
-      url: 
-    - title: "블로그 개발 환경 구축 정리"
-      url: 
-
-  - title: "참고 코드"
-    children:
-      - title: "_config.yml 설정하기"
-        url: 
-      - title: "블로그에서 사용하는 문법 정리"
-        url: 
-        
-# 워게임 포스트 사이드바
-sidebar-wargame:
-  - title: "Web"
-    children:
-    - title: "webhacking.kr"
-      url: 
-      
-  - title: "System"
-    children:
-    - title: "pwnable.kr"
-      url: 
+      - title: "Quick-Start Guide"
+        url: /docs/quick-start-guide/
+      - title: "Structure"
+        url: /docs/structure/
+      - title: "Installation"
+        url: /docs/installation/
+      - title: "Upgrading"
+        url: /docs/upgrading/

@@ -265,67 +265,19 @@ compress_html:
   ignore:
     envs: development
 
-sidebar:
-  nav: "docs"
-  
-comments:
-  provider               : "disqus"
-  disqus:
-    shortname            : dawoon-blog # Short-name
-    
+
 # Defaults
 defaults:
-
-  # _posts/blogging
-  - scope:
-      path: "_posts/blogging"
-      type: posts
-    values:
-      layout: single
-      classes: wide
-      author_profile: true
-      comments: true
-      share: true
-      search: true
-      related: true
-      sidebar:
-        nav: sidebar-blogging
-        
-  # _posts/Wargame
-  - scope:
-      path: "_posts/Wargame"
-      type: posts
-    values:
-      layout: single
-      classes: wide
-      author_profile: true
-      comments: true
-      share: true
-      search: true
-      related: true
-      sidebar:
-        title: "Wargame 카테고리"
-        nav: sidebar-wargame
-
-
   # _posts
   - scope:
       path: ""
       type: posts
     values:
       layout: single
-      classes: wide
       author_profile: true
-      comments: true
+      read_time: true
+      comments: # true
       share: true
-      search: true
       related: true
-
-  # _pages
-  - scope:
-      path: "_pages"
-      type: pages
-    values:
-      layout: single
-      classes: wide
-      author_profile: true
+      sidebar:
+        nav: "docs"
