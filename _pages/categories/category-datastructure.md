@@ -1,5 +1,5 @@
 ---
-title: "Post about Date Structure"
+title: "Post about datastructure"
 layout: archive
 permalink: /categories/datastructure
 author_profile: true
