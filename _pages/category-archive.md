@@ -1,7 +1,7 @@
 ---
-title: "Posts by Category"
-layout: categories
-permalink: /categories/
+title: "Posts by Algorithms"
+layout: algorithms
+permalink: /algorithms/
 author_profile: true
 sidebar_main: true
 ---
