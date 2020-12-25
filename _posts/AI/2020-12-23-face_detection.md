@@ -1,3 +1,14 @@
+---
+title:  Face Detection Example
+excerpt: 기본적인 face detection을 예제 코드를 통해 복습
+search: true
+categories: 
+  - AI
+tags: 
+  - AI
+last_modified_at: 2020-12-23T19:00:00+09:00
+---
+
 ## Face Detection(얼굴 인식)
 
 기본적인 face detection을 예제 코드를 통해 복습!

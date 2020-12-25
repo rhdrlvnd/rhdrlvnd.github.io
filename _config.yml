@@ -271,7 +271,7 @@ defaults:
 
   # _posts/blogging
   - scope:
-      path: "_posts/blogging"
+      path: ""
       type: posts
     values:
       layout: single
