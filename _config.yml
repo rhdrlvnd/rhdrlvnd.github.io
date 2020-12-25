@@ -268,57 +268,15 @@ compress_html:
 
 # Defaults
 defaults:
-
-  # _posts/blogging
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      classes: wide
-      author_profile: true
-      comments: true
-      share: true
-      search: true
-      related: true
-      sidebar:
-        nav: sidebar-blogging
-        
-  # _posts/Wargame
-  - scope:
-      path: "_posts/Wargame"
-      type: posts
-    values:
-      layout: single
-      classes: wide
-      author_profile: true
-      comments: true
-      share: true
-      search: true
-      related: true
-      sidebar:
-        title: "Wargame 카테고리"
-        nav: sidebar-wargame
-
-
   # _posts
   - scope:
       path: ""
       type: posts
     values:
       layout: single
-      classes: wide
       author_profile: true
+      read_time: true
       comments: true
       share: true
-      search: true
       related: true
-
-  # _pages
-  - scope:
-      path: "_pages"
-      type: pages
-    values:
-      layout: single
-      classes: wide
-      author_profile: true
+      sidebar_main: true
