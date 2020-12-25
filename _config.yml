@@ -239,9 +239,9 @@ whitelist:
 #  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
 #  - <base_path>/categories/my-awesome-category/index.html ~> path: /categories/
 #  - <base_path>/my-awesome-category/index.html ~> path: /
-algorithm_archive:
+category_archive:
   type: liquid
-  path: /algoritms/
+  path: /categories/
 tag_archive:
   type: liquid
   path: /tags/
