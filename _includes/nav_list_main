@@ -25,6 +25,13 @@
                 {% endif %}
             {% endfor %}
         </ul>
+        <ul>
+            {% for category in site.categories %}
+                {% if category[0] == "recursive" %}
+                    <li><a href="/categories/recursive" class="">Recursive({{category[1].size}})</a></li>
+                {% endif %}
+            {% endfor %}
+        </ul>
 
         <span class="nav__sub-title" v-on:click='togglet()'>tags</span>
         <ul v-show="flag_t">
