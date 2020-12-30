@@ -32,14 +32,15 @@
                 {% endif %}
             {% endfor %}
         </ul>
-    <!--
-        <span class="nav__sub-title" v-on:click='togglet()'>tags</span>
-        <ul v-show="flag_t">
-        {% for tag in site.tags %}
-           <li><a href="/tags/{{tag[0] | slugify}}" class="">{{tag[0] | capitalize }} ({{tag[1].size}})</a></li>
-        {% endfor %}
+
+        <span class="nav__sub-title" v-on:click='togglet()'>Computer Science</span>
+        <ul>
+            {% for category in site.categories %}
+                {% if category[0] == "sql" %}
+                    <li><a href="/categories/sql" class="">SQL({{category[1].size}})</a></li>
+                {% endif %}
+            {% endfor %}
         </ul>
-    -->
       </li>
 
   </ul>
