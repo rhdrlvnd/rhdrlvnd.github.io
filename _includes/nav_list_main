@@ -10,7 +10,7 @@
         전체 글 수 <u>{{sum}}</u> 개
       </li>
       <li>
-        <span class="nav__sub-title" v-on:click='togglec()'>Algorithm</span>
+        <span class="nav__sub-title" v-on:click='togglec()'>▶ Algorithm</span>
         <ul v-show="flag_c">
             {% for category in site.categories %}
                 {% if category[0] == "ds" %}
@@ -33,7 +33,7 @@
             {% endfor %}
         </ul>
 
-        <span class="nav__sub-title" v-on:click='togglet()'>Computer Science</span>
+        <span class="nav__sub-title" v-on:click='togglet()'>▶ Computer Science</span>
         <ul v-show="flag_t">
             {% for category in site.categories %}
                 {% if category[0] == "sql" %}
