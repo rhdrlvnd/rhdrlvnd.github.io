@@ -46,6 +46,14 @@
                 {% endif %}
             {% endfor %}
         </ul>
+        <ul v-show="flag_c">
+            {% for category in site.categories %}
+                {% if category[0] == "greedy" %}
+                    <li><a href="/categories/greedy" class="">Greedy({{category[1].size}})</a></li>
+                {% endif %}
+            {% endfor %}
+        </ul>
+        
 
         <span class="nav__sub-title" v-on:click='togglet()'>▶ Computer Science</span>
         <ul v-show="flag_t">
