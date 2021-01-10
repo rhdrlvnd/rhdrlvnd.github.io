@@ -28,7 +28,7 @@
         <ul v-show="flag_c">
             {% for category in site.categories %}
                 {% if category[0] == "dp" %}
-                    <li><a href="/categories/dp" class="">Dinamic Programming({{category[1].size}})</a></li>
+                    <li><a href="/categories/dp" class="">Dynamic Programming({{category[1].size}})</a></li>
                 {% endif %}
             {% endfor %}
         </ul>

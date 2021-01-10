@@ -1,5 +1,5 @@
 ---
-title: "Post about Dinamic Programming"
+title: "Post about Dynamic Programming"
 layout: archive
 permalink: /categories/dp
 author_profile: true
