@@ -63,9 +63,8 @@
                 {% endif %}
             {% endfor %}
         </ul>
-      </li>
 
-      <span class="nav__sub-title" v-on:click='togglew()'>▶ WEB</span>
+        <span class="nav__sub-title" v-on:click='togglew()'>▶ WEB</span>
         <ul v-show="flag_w">
             {% for category in site.categories %}
                 {% if category[0] == "spring" %}
