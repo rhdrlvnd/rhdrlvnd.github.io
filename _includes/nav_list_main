@@ -65,5 +65,15 @@
         </ul>
       </li>
 
+      <span class="nav__sub-title" v-on:click='togglew()'>▶ WEB</span>
+        <ul v-show="flag_w">
+            {% for category in site.categories %}
+                {% if category[0] == "spring" %}
+                    <li><a href="/categories/spring" class="">Spring({{category[1].size}})</a></li>
+                {% endif %}
+            {% endfor %}
+        </ul>
+      </li>
+
   </ul>
 </nav>

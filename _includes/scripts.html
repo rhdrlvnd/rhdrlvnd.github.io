@@ -34,7 +34,8 @@
     el : '#category_tag_menu',
     data : {
       flag_c : true,
-      flag_t : false
+      flag_t : false,
+      flag_w : false
     },
     methods : {
       togglec: function(){
@@ -42,6 +43,9 @@
       },
       togglet: function(){
         this.flag_t = !this.flag_t;
+      },
+      togglew: function(){
+        this.flag_w = !this.flag_w;
       }
     }
   });
