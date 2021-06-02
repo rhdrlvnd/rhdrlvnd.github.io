@@ -3,9 +3,9 @@ title:  DAS, NAS, SAN 차이 정리
 excerpt: DAS, NAS, SAN 차이 정리
 search: true
 categories: 
-  - Network
+  - network
 tags: 
-  - Network
+  - network
 last_modified_at: 2021-06-02T15:00:00+09:00
 ---
 
