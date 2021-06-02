@@ -70,6 +70,13 @@
                 {% endif %}
             {% endfor %}
         </ul>
+        <ul v-show="flag_t">
+            {% for category in site.categories %}
+                {% if category[0] == "os" %}
+                    <li><a href="/categories/os" class="">OS({{category[1].size}})</a></li>
+                {% endif %}
+            {% endfor %}
+        </ul>
 
         <span class="nav__sub-title" v-on:click='togglew()'>▶ WEB</span>
         <ul v-show="flag_w">
